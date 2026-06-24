@@ -1,0 +1,31 @@
+{
+    "schema":  1,
+    "campaign_id":  "connecthub-fwu-smoke-test-2026-06-22",
+    "package_id":  1001,
+    "target":  {
+                   "product_code":  0,
+                   "device_family":  0,
+                   "device_type":  0,
+                   "fw_mode":  0,
+                   "hw_min":  0,
+                   "hw_max":  4294967295,
+                   "uid_mode":  "all"
+               },
+    "compat":  {
+                   "fw_version":  "99.99.99.0",
+                   "min_current_fw":  0,
+                   "max_current_fw":  4294967295,
+                   "allow_downgrade":  true,
+                   "required_bootloader_min":  0
+               },
+    "rollout":  {
+                    "channel":  "test",
+                    "bucket_min":  0,
+                    "bucket_max":  99
+                },
+    "payload":  {
+                    "url":  "https://raw.githubusercontent.com/simrprojects/connecthub-fw-test-repo/main/Release/payload.bin",
+                    "size":  43,
+                    "sha256":  "c6496c9bdf9ecd862b02aabf27940991f4d5a78abc1e98488b270d827180061f"
+                }
+}

@@ -4,9 +4,9 @@
     "package_id": 1001,
     "target": {
         "product_code": 0,
-        "device_family": 0,
-        "device_type": 0,
-        "fw_mode": 0,
+        "device_family": 1,
+        "device_type": 1,
+        "fw_mode": 2,
         "hw_min": 0,
         "hw_max": 4294967295,
         "uid_mode": "all"

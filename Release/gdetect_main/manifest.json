@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "campaign_id": "gdetect-main-fwu-smoke-test-2026-07-01",
+    "package_id": 2001,
+    "target": {
+        "product_code": 0,
+        "device_family": 2,
+        "device_type": 10,
+        "fw_mode": 2,
+        "hw_min": 0,
+        "hw_max": 4294967295,
+        "uid_mode": "all"
+    },
+    "compat": {
+        "fw_version": "99.99.99.0",
+        "min_current_fw": 0,
+        "max_current_fw": 4294967295,
+        "allow_downgrade": true,
+        "required_bootloader_min": 0
+    },
+    "rollout": {
+        "channel": "test",
+        "bucket_min": 0,
+        "bucket_max": 99
+    },
+    "payload": {
+        "url": "https://raw.githubusercontent.com/simrprojects/connecthub-fw-test-repo/main/Release/gdetect_main/payload.bin",
+        "size": 75856,
+        "sha256": "ad3556c86d4a4a21ae2fb4f6a67985257297003a76b962c9f37bbf1dc72a6c04"
+    }
+}
